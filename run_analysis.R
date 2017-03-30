@@ -14,7 +14,7 @@
 ##-----------------------------------------------------------------------
 ## PART 1: Merge
 ## navigate to directory containing initial data
-setwd("E:/Coursera/Data/C3_Week4/proj/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
+## comment out for submittal setwd("E:/Coursera/Data/C3_Week4/proj/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
 
 ## merge subject data
 testdata<-read.table("./test/subject_test.txt")
