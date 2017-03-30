@@ -1,0 +1,15 @@
+Data Set is located at:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+Variables:
+testdata is temporary data frame used to hold data frame associated with test files
+traindata is temporary data frame used to hold data frame associated with train files
+subjectdata is data frame containing subject_test.txt and subject_train.txt data
+activitydata is data frame containing activity_test.txt and activity_train.txt data
+measureddata is data frame containing X_Test.txt and X_train.txt data.
+features is data frame containing features.txt
+label is factors consisting column 2 of features table (used for labeling data frame)
+ColOfInterest is an integer array that identifies columns containing "Mean"  or "STD"
+DF2 is data frame that joins activitydata, subjectdata, and specific columns from measureddata
+DF3 is data frame that adds activity labels to the DF2 data frame
+DF_Tidy is dataset containing average of each variable in DF3 by subject and activity
